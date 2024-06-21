@@ -5,14 +5,14 @@ export default function page() {
   return (
     <section className='bg-gray-50 min-h-screen flex items-center justify-center relative top-0 mt-[100px]'>
       <div className='bg-gray-100 flex rounded-2xl py-5 item-center'>
-        <div className='w-1/2 p-1 md:block hidden'> <img src="/login10.jpg" alt="login_image" className='rounded-2xl'/></div>
+        <div className='w-1/2 p-1 md:block hidden'> <img src="/ceaser-salad.jpeg" alt="login_image" className='rounded-2xl'/></div>
         <div className='md:w-1/2 px-16'>
           <h2 className='text-bold text-2xl text-orange-900'>Login</h2>
           <p className='text-sm mt4 text-orange-900'>If you're already a member, login</p>
           <form action="" className='flex flex-col gap-4'>
-          <input type="text" name='email' placeholder='Email' className='p-2 mt-8 rounded-md border outline-none'/>
+          <input type="text" name='email' placeholder='Email' className='p-2 mt-8 rounded-md border outline-none text-black'/>
           <div className='relative'>
-          <input type="text" name='pwd' placeholder='Password'className='p-2 rounded-md border w-full outline-none'/>
+          <input type="text" name='pwd' placeholder='Password'className='p-2 rounded-md border w-full outline-none text-black'/>
           <AiOutlineEye className='absolute top-1/2 right-3 -translate-y-1/2 text-gray-400'/>
           </div>
           <button className='bg-orange-700 rounded-xl text-white py-2 hover:scale-105 duration-300'>Login</button>
@@ -29,7 +29,7 @@ export default function page() {
           <div className='mt-5 text-xs  border-b border-gray-500 py-4 text-orange-900'>Forgot your password?</div>
           <div className='mt-3 text-xs flex justify-between items-center text-orange-900'>
             <p>If you don't have an account...</p>
-            <button className='py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300'>SignUp</button>
+            <button className='py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300'>signin</button>
           </div>
         </div>
       </div>

@@ -20,20 +20,20 @@ export default function Navbar({Children}) {
 
     <ul className="flex space-x-2 items-center  gap-8 capitalize mr-[50px]  text-sm">
       <Link href='/'>
-        <AiTwotoneHome className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-1 pr-3" />
-      <li className=" hover:border-black">Home</li>
+        <AiTwotoneHome className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-4 pr-3" />
+      <li className=" hover:border-black font-bold text-2xl">Home</li>
       </Link>
       <Link href='/specification'>
-        <GiForkKnifeSpoon className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-5 pr-3"/>
-      <li>Specification</li>
+        <GiForkKnifeSpoon className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-11 pr-3"/>
+      <li className="font-bold text-2xl">Specification</li>
       </Link>
       <Link href='/drinks'>
-        <PiCoffeeFill className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-1 pr-3"/>
-      <li>drinks</li>
+        <PiCoffeeFill className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-4 pr-3"/>
+      <li className="font-bold text-2xl">drinks</li>
       </Link>
       <Link href='/contact-mail'>
-        <GrMail className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-5 pr-3"/>
-      <li>contact/mail</li>
+        <GrMail className=" h-[70px] w-[40px] top-0 pb-0 mb-0 pt-11 ml-12 pr-3"/>
+      <li className="font-bold text-2xl">contact/mail</li>
       </Link>
     </ul>
 
@@ -42,7 +42,7 @@ export default function Navbar({Children}) {
         <li className={`${styles.signup} justify-center items-center h-9`}>get started</li>
         </Link>
         <Link href='/signin'>
-        <li className={`${styles.login} justify-center text-black border-solid- items-center h-9`}>sign in</li>
+        <li className={`${styles.login} justify-center text-black border-solid- items-center h-9`}>signin</li>
         </Link>
     </ul>
    </nav>
